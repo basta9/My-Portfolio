@@ -1,0 +1,147 @@
+
+@import './portfolio.css'; 
+@import './modal.css'; 
+
+@font-face{
+    font-family: Rubik;
+    src: url('../assets/fonts/Rubik/Rubik-Regular.ttf')
+}
+
+body ,html{
+    margin: 0;
+    padding: 0;
+    background: rgb(203, 199, 255);
+}
+
+
+main{
+    margin: 40px auto;
+    width: 85%;
+    font-family: Rubik;
+}
+
+.my-portfolio{
+height: 400px;
+}
+.my-portfolio h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.my-info{
+display: flex;
+justify-content: space-between;
+}
+
+.my-info h1{
+    font-size: 35px;
+}
+
+.my-info h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.my-info b{
+    font-size: 14px;
+}
+.my-info a{
+background: seagreen;
+font-size: 20px;
+padding: 15px;
+border-radius: 50%;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-top: 20px;
+cursor: pointer;
+text-decoration: none;
+color: #222222;
+}
+
+.my-info a:hover{
+    background-color: rgba(165, 42, 42, 0.801);
+}
+
+.head-shot{
+width: 125px;
+height: 135px;
+object-fit: cover;
+object-position: top;
+border-radius: 50%;
+border: 2px solid #222222;
+display: block;
+}
+
+@media (min-width: 600px){
+    .head-shot{
+        width: 180px;
+        height: 190px;
+        margin: 25px;
+    }
+    
+.my-info h1{
+    font-size: 45px;
+}
+
+.my-info h2{
+    font-size: 28px;
+}
+.my-portfolio h2{
+    font-size: 34px;
+}
+
+.my-info b{
+    font-size: 18px;
+}
+}
+
+@media (min-width: 700px){
+    main{
+       display: flex;
+        justify-content: space-between;
+    }    
+    .my-portfolio{
+        width: 60%;
+        margin-top: 35px;
+    }
+    
+.my-info{
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 35%;
+}
+.head-shot{
+    margin: 0;
+}
+   
+.my-info h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.my-info h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.my-portfolio h2{
+    font-size: 30px;
+}
+}
+
+@media (min-width: 700px){
+    .head-shot{
+        width: 200px;
+        height: 220px;
+    }
+       
+    .my-info h1{
+        font-size: 40px;
+    }
+    
+    .my-info h2{
+        font-size: 30px;
+    }
+    .my-portfolio h2{
+        font-size: 33px;
+    }
+}
