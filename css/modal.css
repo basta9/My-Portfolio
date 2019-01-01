@@ -2,12 +2,13 @@
 
 .proj-info{
 overflow: hidden;
-height: 85%;
+height: 90%;
 }
-
+.proj-about{
+    font-size: 13px;
+}
 .proj-about > img{
     height: 100px;
-
 }
 .proj-tech > div{
 margin-left: 15px;
@@ -15,6 +16,7 @@ margin-left: 15px;
 
 .proj-tech{
     display: flex;
+    font-size: 13px;
 }
 
 .proj-tech img{
@@ -39,13 +41,14 @@ z-index: 1;
 
 .modal-content{
     background: white;
-    height: 60%;
+    color: #222222;
+    height: 75%;
     width: 80%;
     max-width: 650px;
-    margin: 80px auto;
+    margin: 50px auto;
     border-radius: 10px;
     z-index: 2;
-    padding: 15px;
+    padding: 30px;
     position: relative;
 }
 
@@ -91,9 +94,12 @@ height: 100%;
 .proj-about{
     width: 40%;
     margin-right: 10%;
+    font-size: 18px;
+    
 }
 
 .proj-tech{
+    font-size: 18px;
     width: 50%;
     flex-direction: column;
 }    

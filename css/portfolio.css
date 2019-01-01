@@ -47,7 +47,7 @@
     width: 102%;
     padding: 5%;
     box-sizing: border-box;
-    background-color: rgba(165, 42, 42, 0.801);
+    background-color: rgba(128, 128, 128, 0.808);
     transition: transform .2s ease-out, opacity .3s ease-out;
   }
   
@@ -122,4 +122,11 @@
       width: 100%;
       max-width: 600px;
     }
-}
+  }
+  
+  @media (min-width: 1000px){
+    .hex img {
+      margin: 35px auto;
+    }
+    
+  }

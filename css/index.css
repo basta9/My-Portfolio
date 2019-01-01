@@ -10,7 +10,8 @@
 body ,html{
     margin: 0;
     padding: 0;
-    background: rgb(203, 199, 255);
+    background: #222222;
+    color: white;
 }
 
 
@@ -25,7 +26,7 @@ height: 400px;
 }
 .my-portfolio h2{
     font-size: 30px;
-    margin: 0;
+    margin-top: 20px;
 }
 
 .my-info{
@@ -47,6 +48,7 @@ justify-content: space-between;
 }
 .my-info a{
 background: seagreen;
+color: white;
 font-size: 20px;
 padding: 15px;
 border-radius: 50%;
@@ -55,32 +57,31 @@ margin-bottom: 5px;
 margin-top: 20px;
 cursor: pointer;
 text-decoration: none;
-color: #222222;
 }
 
 .my-info a:hover{
-    background-color: rgba(165, 42, 42, 0.801);
+    /* background-color: rgba(165, 42, 42, 0.801); */
+    background-color: grey;
 }
 
 .head-shot{
-width: 125px;
-height: 135px;
+width: 140px;
+height: 175px;
 object-fit: cover;
 object-position: top;
 border-radius: 50%;
-border: 2px solid #222222;
 display: block;
 }
 
 @media (min-width: 600px){
     .head-shot{
         width: 180px;
-        height: 190px;
+        height: 220px;
         margin: 25px;
     }
     
 .my-info h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .my-info h2{
@@ -88,6 +89,7 @@ display: block;
 }
 .my-portfolio h2{
     font-size: 34px;
+    margin-top: 20px;
 }
 
 .my-info b{
@@ -110,35 +112,20 @@ display: block;
     justify-content: center;
     width: 35%;
 }
+
 .head-shot{
     margin: 0;
+    width: 220px;
+    height: 280px;
 }
-   
+
 .my-info h1{
-    font-size: 35px;
     margin-bottom: 0px;
+    font-size: 50px;
 }
 
 .my-info h2{
-    font-size: 25px;
     margin-top: 10px;
-}
-.my-portfolio h2{
-    font-size: 30px;
-}
-}
-
-@media (min-width: 700px){
-    .head-shot{
-        width: 200px;
-        height: 220px;
-    }
-       
-    .my-info h1{
-        font-size: 40px;
-    }
-    
-    .my-info h2{
         font-size: 30px;
     }
     .my-portfolio h2{
