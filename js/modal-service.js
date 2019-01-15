@@ -14,7 +14,7 @@ const projectsInfo = {
         header: 'SleepOver',
         desc: 'SleepOver is built to be a world wide application used for FREE accommodation. Similar to "Couch Surfing". The App has its own User System & interface, User Chat, Booking System & more.',
         techList: ['Vue.js', 'VueX', 'Node JS', 'Web Sockets', 'MongoDB', 'Bootstrap', 'Element IO'],
-        techImgs: ['./assets/img/node-js.png', './assets/img/mongo.png', './assets/img/element.svg', './assets/img/bootstrap.png'],
+        techImgs: ['./assets/img/node-js.png','./assets/img/cloudinary.png', './assets/img/mongo.png', './assets/img/element.svg', './assets/img/bootstrap.png'],
         siteLink: 'https://sleepover.herokuapp.com/',
         gitLink: ['https://github.com/edoco89/sleep-over-frontend', 'https://github.com/edoco89/sleep-over-backend']
     },
@@ -25,14 +25,15 @@ const projectsInfo = {
         techImgs: ['./assets/img/react.png','./assets/img/mobx.png','./assets/img/moment.png'],
         siteLink: 'https://basta9.github.io/Bitcoin-wallet/',
         gitLink: ['https://github.com/basta9/Bitcoin-wallet']
+    },
+    angular: {
+        header: 'Note-Manager',
+        desc: "Day to day user friendly and usable note manager! Written with Angular's latest version and uses NGRX state management.",
+        techList: ['Angular', 'NGRX', 'Cloudinary'],
+        techImgs: ['./assets/img/angular.png','./assets/img/ngrx.png','./assets/img/cloudinary.png'],
+        siteLink: 'https://basta9.github.io/Note-Manager/',
+        gitLink: ['https://github.com/basta9/Note-Manager']
     }
-    // angular: {
-    //     header: 'Meme Generator',
-    //     desc: 'A pure vanilla written code, using HTML5 canvas to enable an amusing MEME creator.',
-    //     techList: ['CSS 3', 'HTML 5', 'Vanilla JS', 'HTML CANVAS'],
-    //     siteLink: '',
-    //     gitLink: ''
-    // }
 }
 
 
