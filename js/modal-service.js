@@ -28,7 +28,7 @@ const projectsInfo = {
     },
     angular: {
         header: 'Note-Manager',
-        desc: "Day to day user friendly and usable note manager! Written with Angular's latest version and uses NGRX state management.",
+        desc: "Day to day easy to use note manager! Written with Angular's latest version and uses NGRX state management.",
         techList: ['Angular', 'NGRX', 'Cloudinary'],
         techImgs: ['./assets/img/angular.png','./assets/img/ngrx.png','./assets/img/cloudinary.png'],
         siteLink: 'https://basta9.github.io/Note-Manager/',
